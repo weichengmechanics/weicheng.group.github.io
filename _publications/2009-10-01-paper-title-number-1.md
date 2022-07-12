@@ -13,12 +13,3 @@ This paper is about the number 1. The number 2 is left for future work.
 [Download paper here](http://academicpages.github.io/files/paper1.pdf)
 
 Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
-
-<br/>
-<div class="well-md">
-<h3>Sponsors</h3>
-<div style='display:block; text-align:center; margin-left:auto; margin-right:auto;'>
- {% for funder in site.data.funders %}{% if funder.url %}<a href="{{funder.url}}" target="_blank"><img src='/images/profile.png' style='max-height: 70px; max-width: 170px;'/></a>{% else %}<img src='/images/profile.png' class='mycenter' style='max-height: 70px; max-width: 170px;'/>{% endif %}   {% endfor %}
-</div>
-
-</div>
